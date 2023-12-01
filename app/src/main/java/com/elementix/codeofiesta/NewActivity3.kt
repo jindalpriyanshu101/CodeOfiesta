@@ -7,5 +7,12 @@ class NewActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new3)
+
+        val actionBar = supportActionBar
+
+        actionBar?.title = "Third hai bhai"
+
+
+
     }
 }

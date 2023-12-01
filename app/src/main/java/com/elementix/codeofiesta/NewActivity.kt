@@ -1,5 +1,6 @@
 package com.elementix.codeofiesta
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -30,6 +31,8 @@ class NewActivity2 : AppCompatActivity() {
             // Compare texts from both EditText views
             if (text1.equals(text2, ignoreCase = true)) {
                 showToast("Login successful!\nWelcome $text1")
+                val intent = Intent(this, NewActivity3::class.java)
+                startActivity(intent)
             } else {
                 showToast("Credentials do not match")
             }
