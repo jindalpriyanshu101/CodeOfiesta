@@ -17,4 +17,9 @@
     <string name="checking_stuffs">Checking STUFFS</string>
     <string name="button2">Check Button</string>
     <string name="login">Login</string>
+    <string name="signin">Signin</string>
+    <string name="create_an_account">create an account</string>
+    <string name="TextPassword">Password</string>
+    <string name="TextUsername">Username</string>
+    <string name="LoginText">Login</string>
 </resources>

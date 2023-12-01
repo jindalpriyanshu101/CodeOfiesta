@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/LoginText"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,32 +28,35 @@
         android:ems="14"
         android:inputType="text"
         android:minHeight="55dp"
-        android:text="Username"
+        android:text="@string/TextUsername"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35000002" />
+        app:layout_constraintVertical_bias="0.35000002"
+        tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="14"
-        android:hint="Password"
+        android:hint="@string/TextPassword"
         android:inputType="textPassword"
         android:minHeight="55dp"
+        android:textColorHint="#8D6E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44" />
+        app:layout_constraintVertical_bias="0.44"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="124dp"
         android:layout_height="55dp"
-        android:text="Signin"
+        android:text="@string/signin"
         android:textSize="16sp"
         app:iconSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,7 +69,7 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="create an account"
+        android:text="@string/create_an_account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
