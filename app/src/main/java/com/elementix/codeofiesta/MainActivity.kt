@@ -1,9 +1,9 @@
 package com.elementix.codeofiesta
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,9 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         val buttonClick = findViewById<Button>(R.id.button)
         buttonClick.setOnClickListener {
-            val intent = Intent(this, NewActivity1::class.java)
+            val intent = Intent(this, NewActivity2::class.java)
             startActivity(intent)
         }
-
     }
 }
