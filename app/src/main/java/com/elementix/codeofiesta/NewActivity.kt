@@ -33,15 +33,17 @@ class NewActivity2 : AppCompatActivity() {
                 showToast("Login successful!\nWelcome $text1")
                 val intent = Intent(this, NewActivity3::class.java)
                 startActivity(intent)
+
             } else {
                 showToast("Credentials do not match")
             }
         }
 
         newaccount.setOnClickListener {
-            showToast("New account creation prohibited")
+            showToast("Welcome Aboard!")
+            val intent = Intent(this, CreateAccount::class.java)
+            startActivity(intent)
         }
-
     }
 
     private fun showToast(message: String) {

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CodeOfiesta"
         tools:targetApi="31">
         <activity
+            android:name=".CreateAccount"
+            android:exported="true" />
+        <activity
             android:name=".NewActivity3"
             android:exported="false" />
         <activity
